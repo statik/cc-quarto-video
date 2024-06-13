@@ -1,20 +1,17 @@
 ---
 format: revealjs
-include-in-header:
-    text: <script type="text/javascript" src="camera.js"></script>
 ---
 
 - This is a hand rolled title slide
 - Get out of bed
 
+## Slide Title {background-iframe="camera.html"}
+
+This is on the slide
+
 ---
 
-<video data-autoplay id="video">
-</video>
-
-<script>
-startCam();
-</script>
+hello
 
 ---
 

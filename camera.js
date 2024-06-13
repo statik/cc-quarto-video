@@ -1,7 +1,7 @@
 //Initialize video
 const startCam = () => {
 
-    const video = document.getElementById("video");
+    const video = document.querySelector("#video");
     console.log("starting video");
 
     // validate video element
@@ -16,3 +16,4 @@ const startCam = () => {
             });
     }
 };
+
