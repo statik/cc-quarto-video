@@ -1,7 +1,13 @@
 ---
-format: revealjs
-include-in-header:
-    text: <script type="text/javascript" src="camera.js"></script>
+format:
+  revealjs:
+    drop:
+      engine: pyodide
+      pyodide:
+        packages:
+          - plotnine
+revealjs-plugins:
+    - drop
 ---
 
 - Quarto presentations support advanced browser features
